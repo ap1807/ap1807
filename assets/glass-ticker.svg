@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="204" viewBox="0 0 1200 204" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#f6f8fa"/><stop offset="1" stop-color="#eaeef2"/>
+    </linearGradient>
+    <radialGradient id="b1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#d9e1ea" stop-opacity="0.9"/><stop offset="1" stop-color="#d9e1ea" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.42"/></linearGradient>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef1f6" stop-opacity="1"/><stop offset="1" stop-color="#eef1f6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#eef1f6" stop-opacity="1"/><stop offset="1" stop-color="#eef1f6" stop-opacity="0"/></linearGradient>
+    <filter id="softSm" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#33415c" flood-opacity="0.11"/></filter>
+    <filter id="blurBig" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+
+  <rect width="1200" height="204" fill="url(#bg)"/>
+
+  <g filter="url(#blurBig)">
+    <circle cx="150" cy="40" r="80" fill="url(#b1)">
+      <animate attributeName="cx" values="150;250;150" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="190" r="90" fill="url(#b1)">
+      <animate attributeName="cx" values="1060;960;1060" dur="10.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600" y="34" text-anchor="middle" font-size="14" font-weight="700" fill="#57606a" letter-spacing="5">TECH STACK</text>
+
+  <!-- row 1 → scrolls left · row 2 ← scrolls right (seamless infinite marquee) -->
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-1476 0" dur="26s" begin="0s" calcMode="linear" repeatCount="indefinite"/>
+      <g filter="url(#softSm)">
+      <rect x="0" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="164" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="328" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="492" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="656" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="820" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="984" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1148" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1312" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1476" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1640" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1804" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1968" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2132" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2296" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2460" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2624" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2788" y="58" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      </g>
+      <circle cx="24" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="42" y="89" font-size="13.5" font-weight="600" fill="#24292f">Python</text>
+      <circle cx="188" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="206" y="89" font-size="13.5" font-weight="600" fill="#24292f">TypeScript</text>
+      <circle cx="352" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="370" y="89" font-size="13.5" font-weight="600" fill="#24292f">PyTorch</text>
+      <circle cx="516" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="534" y="89" font-size="13.5" font-weight="600" fill="#24292f">LangChain</text>
+      <circle cx="680" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="698" y="89" font-size="13.5" font-weight="600" fill="#24292f">OpenAI</text>
+      <circle cx="844" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="862" y="89" font-size="13.5" font-weight="600" fill="#24292f">Gemini</text>
+      <circle cx="1008" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1026" y="89" font-size="13.5" font-weight="600" fill="#24292f">RAG Systems</text>
+      <circle cx="1172" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1190" y="89" font-size="13.5" font-weight="600" fill="#24292f">LLM Agents</text>
+      <circle cx="1336" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1354" y="89" font-size="13.5" font-weight="600" fill="#24292f">scikit-learn</text>
+      <circle cx="1500" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1518" y="89" font-size="13.5" font-weight="600" fill="#24292f">Python</text>
+      <circle cx="1664" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1682" y="89" font-size="13.5" font-weight="600" fill="#24292f">TypeScript</text>
+      <circle cx="1828" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="1846" y="89" font-size="13.5" font-weight="600" fill="#24292f">PyTorch</text>
+      <circle cx="1992" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2010" y="89" font-size="13.5" font-weight="600" fill="#24292f">LangChain</text>
+      <circle cx="2156" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2174" y="89" font-size="13.5" font-weight="600" fill="#24292f">OpenAI</text>
+      <circle cx="2320" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2338" y="89" font-size="13.5" font-weight="600" fill="#24292f">Gemini</text>
+      <circle cx="2484" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2502" y="89" font-size="13.5" font-weight="600" fill="#24292f">RAG Systems</text>
+      <circle cx="2648" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2666" y="89" font-size="13.5" font-weight="600" fill="#24292f">LLM Agents</text>
+      <circle cx="2812" cy="84" r="5.5" fill="#8c959f"/>
+      <text x="2830" y="89" font-size="13.5" font-weight="600" fill="#24292f">scikit-learn</text>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="-1476 0;0 0" dur="30s" begin="0s" calcMode="linear" repeatCount="indefinite"/>
+      <g filter="url(#softSm)">
+      <rect x="0" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="164" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="328" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="492" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="656" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="820" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="984" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1148" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1312" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1476" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1640" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1804" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="1968" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2132" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2296" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2460" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2624" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      <rect x="2788" y="124" width="150" height="52" rx="14" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.95" stroke-width="1.3"/>
+      </g>
+      <circle cx="24" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="42" y="155" font-size="13.5" font-weight="600" fill="#24292f">Next.js</text>
+      <circle cx="188" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="206" y="155" font-size="13.5" font-weight="600" fill="#24292f">React</text>
+      <circle cx="352" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="370" y="155" font-size="13.5" font-weight="600" fill="#24292f">Streamlit</text>
+      <circle cx="516" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="534" y="155" font-size="13.5" font-weight="600" fill="#24292f">FastAPI</text>
+      <circle cx="680" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="698" y="155" font-size="13.5" font-weight="600" fill="#24292f">Django</text>
+      <circle cx="844" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="862" y="155" font-size="13.5" font-weight="600" fill="#24292f">Docker</text>
+      <circle cx="1008" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1026" y="155" font-size="13.5" font-weight="600" fill="#24292f">AWS</text>
+      <circle cx="1172" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1190" y="155" font-size="13.5" font-weight="600" fill="#24292f">SQL</text>
+      <circle cx="1336" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1354" y="155" font-size="13.5" font-weight="600" fill="#24292f">Git</text>
+      <circle cx="1500" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1518" y="155" font-size="13.5" font-weight="600" fill="#24292f">Next.js</text>
+      <circle cx="1664" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1682" y="155" font-size="13.5" font-weight="600" fill="#24292f">React</text>
+      <circle cx="1828" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="1846" y="155" font-size="13.5" font-weight="600" fill="#24292f">Streamlit</text>
+      <circle cx="1992" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2010" y="155" font-size="13.5" font-weight="600" fill="#24292f">FastAPI</text>
+      <circle cx="2156" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2174" y="155" font-size="13.5" font-weight="600" fill="#24292f">Django</text>
+      <circle cx="2320" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2338" y="155" font-size="13.5" font-weight="600" fill="#24292f">Docker</text>
+      <circle cx="2484" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2502" y="155" font-size="13.5" font-weight="600" fill="#24292f">AWS</text>
+      <circle cx="2648" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2666" y="155" font-size="13.5" font-weight="600" fill="#24292f">SQL</text>
+      <circle cx="2812" cy="150" r="5.5" fill="#8c959f"/>
+      <text x="2830" y="155" font-size="13.5" font-weight="600" fill="#24292f">Git</text>
+    </g>
+
+  <!-- edge fades -->
+  <rect x="0" y="0" width="100" height="204" fill="url(#fadeL)"/>
+  <rect x="1100" y="0" width="100" height="204" fill="url(#fadeR)"/>
+</svg>
