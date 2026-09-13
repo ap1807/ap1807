@@ -1,17 +1,19 @@
 <!--
   ══════════════════════════════════════════════════════════════════
-  Adityaraj Patil · GitHub Profile README · "Frost" edition v3
-  Glassmorphism · white / silver palette · animated custom SVGs
-  (assets/ contains hand-built animated SVGs — they render & animate on GitHub)
+  Adityaraj Patil · GitHub Profile README · "Frost in Motion" v3.1
+  Glassmorphism · white/silver palette · every custom asset animates
+  (glass-header: typewriter roles + name shimmer + open-to-work beacon,
+   glass-ticker: infinite two-way marquee · glass-divider: comet line ·
+   glass-footer: scrolling waves — all SMIL, all render on GitHub)
   Placeholders (marked TODO): 1. LeetCode URL  2. Email
   ══════════════════════════════════════════════════════════════════
 -->
 
-<img src="assets/glass-header.svg" width="100%" alt="Adityaraj Patil — AI/ML Engineer · frosted glass banner" />
+<img src="assets/glass-header.svg" width="100%" alt="Adityaraj Patil — AI/ML Engineer · animated frosted-glass banner with typewriter roles and open-to-work beacon" />
 
 <p align="center">
   <a href="https://www.aiwithadi.in">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=18&duration=2800&pause=1200&color=57606A&center=true&vCenter=true&width=600&lines=Building+LLM-powered+agents+%26+applications;LangChain+%C2%B7+RAG+%C2%B7+Tool-calling+agents;Python+%C2%B7+TypeScript+%C2%B7+Streamlit+%C2%B7+Next.js;From+experiment+to+production" alt="typing animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2400&pause=900&color=475569&center=true&vCenter=true&width=640&lines=Building+LLM-powered+agents+%26+applications;LangChain+%C2%B7+RAG+%C2%B7+Tool-calling+agents;Python+%C2%B7+TypeScript+%C2%B7+Streamlit+%C2%B7+Next.js;From+experiment+to+production" alt="typing animation" />
   </a>
 </p>
 
@@ -24,7 +26,7 @@
   <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-24292F?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="1.5" alt="divider" />
+<img src="assets/glass-divider.svg" width="100%" alt="" />
 
 ## About
 
@@ -42,7 +44,8 @@ measurable output, and a UI people actually want to use.
 
 ## Tech Stack
 
-<img src="assets/glass-skills.svg" width="100%" alt="Tech stack — Python, TypeScript, JavaScript, C++, LangChain, OpenAI, Gemini, Streamlit, Next.js, React, Django, Tailwind, Git, Vercel on frosted glass tiles" />
+<!-- two counter-scrolling rows — the whole strip is one infinite marquee -->
+<img src="assets/glass-ticker.svg" width="100%" alt="Tech stack marquee — Python, TypeScript, PyTorch, LangChain, OpenAI, Gemini, RAG, LLM agents, scikit-learn · Next.js, React, Streamlit, FastAPI, Django, Docker, AWS, SQL, Git scrolling on frosted glass tiles" />
 
 <br />
 
@@ -137,7 +140,7 @@ measurable output, and a UI people actually want to use.
 
 <br />
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="1.5" alt="divider" />
+<img src="assets/glass-divider.svg" width="100%" alt="" />
 
 <p align="center">
   <sub>Open to internships & collaborations on applied AI — the fastest way to reach me is <a href="https://www.aiwithadi.in">aiwithadi.in</a>.</sub>
