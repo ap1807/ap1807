@@ -203,13 +203,16 @@ graph LR
 <!-- ═══ LeetCode — LIVE · username verified via GraphQL: Adityaraj18 ═══ -->
 ### 🧠 LeetCode Stats & Problem Solving
 
+<!-- NOTE: leetcode-stats-api.vercel.app/api returns JSON (not SVG) — camo rejects it with HTTP 400
+     "Non-Image content-type returned" (it is broken on the reference profile too).
+     Both cards below therefore use leetcard.jacoblin.cool: heatmap variant + breakdown variant. -->
 <section>
 <div align="center">
   <a href="https://leetcode.com/u/Adityaraj18/" target="_blank">
     <img src="https://leetcard.jacoblin.cool/Adityaraj18?ext=heatmap&theme=light&font=Inter&border=ffffff&radius=12&solved=24292f&attempted=57606a&unsolved=d0d7de&accent=24292f&title=24292f&rank=57606a" width="49%" alt="LeetCode stats card with heatmap" />
   </a>
   <a href="https://leetcode.com/u/Adityaraj18/" target="_blank">
-    <img src="https://leetcode-stats-api.vercel.app/api?username=Adityaraj18&theme=light&hide_border=true&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=24292f" width="49%" alt="LeetCode solved breakdown" />
+    <img src="https://leetcard.jacoblin.cool/Adityaraj18?theme=light&font=Inter&border=ffffff&radius=12&solved=24292f&attempted=57606a&unsolved=d0d7de&accent=24292f&title=24292f&rank=57606a" width="49%" alt="LeetCode solved breakdown card" />
   </a>
 </div>
 <br/>
