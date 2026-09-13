@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="10" viewBox="0 0 1200 10" font-family="Segoe UI, -apple-system, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="comet" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9d3de" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9fb0c2" stop-opacity="1"/>
+      <stop offset="1" stop-color="#c9d3de" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="20" y1="5" x2="1180" y2="5" stroke="#e3e8ef" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="-160" y="2.5" width="160" height="5" rx="2.5" fill="url(#comet)" opacity="0.9">
+    <animate attributeName="x" values="-160;1200" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
