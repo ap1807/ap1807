@@ -203,9 +203,10 @@ graph LR
 <!-- ═══ LeetCode — LIVE · username verified via GraphQL: Adityaraj18 ═══ -->
 ### 🧠 LeetCode Stats & Problem Solving
 
-<!-- NOTE: leetcode-stats-api.vercel.app/api returns JSON (not SVG) — camo rejects it with HTTP 400
-     "Non-Image content-type returned" (it is broken on the reference profile too).
-     Both cards below therefore use leetcard.jacoblin.cool: heatmap variant + breakdown variant. -->
+<!-- NOTE: the stats-card API many profiles copy for their second LeetCode card returns JSON,
+     not SVG — GitHub's camo proxy rejects it with HTTP 400 "Non-Image content-type returned"
+     (it is broken on the reference profile too). Both cards below therefore use
+     leetcard.jacoblin.cool: heatmap variant + breakdown variant. -->
 <section>
 <div align="center">
   <a href="https://leetcode.com/u/Adityaraj18/" target="_blank">
