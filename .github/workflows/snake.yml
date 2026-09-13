@@ -26,13 +26,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVGs (light + dark, violet accent)
+      - name: Generate snake SVGs (light + dark, frost palette)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-light.svg?color_snake=%237C3AED
-            dist/snake-dark.svg?palette=github-dark&color_snake=%23A78BFA
+            dist/snake-light.svg?color_snake=%236e7781&color_dots=%23ebedf0,%23d0d7de,%239ea7b3,%236e7781,%2324292f
+            dist/snake-dark.svg?color_snake=%23ffffff&color_dots=%23161b22,%23273038,%233d444d,%23545d68,%23f0f6fc
 
       - name: Push snake SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
