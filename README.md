@@ -4,7 +4,7 @@
   Structure inspired by pro dev profiles · white/silver glassmorphism
   · every custom asset animates (typewriter banner, tech marquee,
     comet dividers, wave footer) · theme-adaptive stats & cards
-  Placeholders (marked TODO): 1. LeetCode username check  2. Email
+  Live: LeetCode username = Adityaraj18 (verified via LeetCode GraphQL) · Remaining placeholder: email
   ══════════════════════════════════════════════════════════════════
 -->
 
@@ -23,10 +23,7 @@
   &nbsp;
   <a href="https://github.com/ap1807" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
-  <!-- TODO-leetcode: uncomment the badge + section below once you confirm your LeetCode username,
-       then replace ALL "ap1807" occurrences in the LeetCode card URLs with it.
-  <a href="https://leetcode.com/u/ap1807/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-  -->
+  <a href="https://leetcode.com/u/Adityaraj18/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
   &nbsp;
   <!-- TODO-email: replace with your real email address -->
   <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -203,23 +200,24 @@ graph LR
 
 <img src="assets/glass-divider.svg" width="100%" alt="" />
 
-<!-- ═══ LeetCode stats — DISABLED until username confirmed (card showed "User Not Found" for ap1807).
-     To enable: replace ap1807 below with your real LeetCode username, then remove this comment wrapper.
+<!-- ═══ LeetCode — LIVE · username verified via GraphQL: Adityaraj18 ═══ -->
+### 🧠 LeetCode Stats & Problem Solving
+
 <section>
 <div align="center">
-  <a href="https://leetcode.com/u/ap1807/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/ap1807?ext=heatmap&theme=light&font=Inter&border=ffffff&radius=12&solved=24292f&attempted=57606a&unsolved=d0d7de&accent=24292f&title=24292f&rank=57606a" width="49%" alt="LeetCode stats card with heatmap" />
+  <a href="https://leetcode.com/u/Adityaraj18/" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/Adityaraj18?ext=heatmap&theme=light&font=Inter&border=ffffff&radius=12&solved=24292f&attempted=57606a&unsolved=d0d7de&accent=24292f&title=24292f&rank=57606a" width="49%" alt="LeetCode stats card with heatmap" />
   </a>
-  <a href="https://leetcode.com/u/ap1807/" target="_blank">
-    <img src="https://leetcode-stats-api.vercel.app/api?username=ap1807&theme=light&hide_border=true&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=24292f" width="49%" alt="LeetCode solved breakdown" />
+  <a href="https://leetcode.com/u/Adityaraj18/" target="_blank">
+    <img src="https://leetcode-stats-api.vercel.app/api?username=Adityaraj18&theme=light&hide_border=true&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=24292f" width="49%" alt="LeetCode solved breakdown" />
   </a>
 </div>
 <br/>
 <p align="center">
-  <a href="https://leetcode.com/u/ap1807/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>
+  <a href="https://leetcode.com/u/Adityaraj18/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" /></a>
 </p>
 </section>
-═══ end LeetCode ═══ -->
+<!-- ═══ end LeetCode ═══ -->
 
 <img src="assets/glass-divider.svg" width="100%" alt="" />
 
@@ -244,7 +242,7 @@ graph LR
   &nbsp;
   <a href="https://github.com/ap1807" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   &nbsp;
-  <!-- TODO-leetcode: re-add the LeetCode badge here together with the stats section when username is confirmed -->
+  <a href="https://leetcode.com/u/Adityaraj18/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
   &nbsp;
   <!-- TODO-email: replace with your real email address -->
   <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
